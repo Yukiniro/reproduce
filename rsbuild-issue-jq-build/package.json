@@ -5,7 +5,8 @@
   "scripts": {
     "dev": "rsbuild dev --open",
     "build": "rsbuild build",
-    "preview": "rsbuild preview"
+    "preview": "rsbuild preview",
+    "inspect": "rsbuild inspect --env production"
   },
   "dependencies": {
     "jquery": "^3.7.1",
@@ -14,18 +15,7 @@
   },
   "devDependencies": {
     "@rsbuild/core": "^0.4.6",
-    "@rsbuild/plugin-react": "^0.4.6"
-  },
-  "browserslist": {
-    "production": [
-      ">0.2%",
-      "not dead",
-      "not op_mini all"
-    ],
-    "development": [
-      "last 1 chrome version",
-      "last 1 firefox version",
-      "last 1 safari version"
-    ]
+    "@rsbuild/plugin-react": "^0.4.6",
+    "@rspack/plugin-minify": "^0.5.4"
   }
 }
