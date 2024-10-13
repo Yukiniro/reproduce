@@ -1,0 +1,19 @@
+{
+  "name": "rsbuild-issue-jq-build",
+  "private": true,
+  "version": "1.0.0",
+  "scripts": {
+    "dev": "rsbuild dev --open",
+    "build": "rsbuild build",
+    "preview": "rsbuild preview",
+    "inspect": "rsbuild inspect --env production"
+  },
+  "dependencies": {
+    "react": "^18.3.1",
+    "react-dom": "^18.3.1"
+  },
+  "devDependencies": {
+    "@rsbuild/core": "^1.0.13",
+    "@rsbuild/plugin-react": "^1.0.3"
+  }
+}
