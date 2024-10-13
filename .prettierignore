@@ -1,0 +1,14 @@
+node_modules
+.prettierignore
+.DS_Store
+.prettierrc.cjs
+.prettierrc.mjs
+.gitignore
+.prettierrc
+package-lock.json
+dist
+build
+*.md
+*.mdx
+*.yaml
+*.yml

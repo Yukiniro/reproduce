@@ -1,0 +1,12 @@
+{
+  "name": "reproduce",
+  "version": "1.0.0",
+  "description": "This is a project list to reproduce some issues.",
+  "main": "index.js",
+  "scripts": {
+    "prettier": "prettier --write ."
+  },
+  "devDependencies": {
+    "prettier": "^3.3.3"
+  }
+}
